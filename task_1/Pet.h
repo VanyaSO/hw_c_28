@@ -24,6 +24,11 @@ public:
     {
         cout << "woof" << endl;
     }
+
+    void bark()
+    {
+        cout << "bark" << endl;
+    }
 };
 
 class Cat: public Pet {
@@ -34,6 +39,11 @@ public:
     {
         cout << "meow" << endl;
     }
+
+    void purring()
+    {
+        cout << "purring" << endl;
+    }
 };
 
 class Parrot: public Pet {
@@ -43,6 +53,11 @@ public:
     void speak() override
     {
         cout << "Hi, i am parrot" << endl;
+    }
+
+    void fly()
+    {
+        cout << "fly" << endl;
     }
 };
 
